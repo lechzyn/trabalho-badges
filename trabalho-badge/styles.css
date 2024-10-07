@@ -1,0 +1,53 @@
+:root {
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-casa: pink;
+    --cor-icone: #730071;
+    --cor-fundo: #a9a587;
+    --cor-ferias: orange;
+    --arredondamento: 10px;
+    --padding-badge:5px 10px;
+}
+
+div > svg {
+    max-width: 20px;
+    fill: var(--cor-icone);
+    margin-left: 4px;
+}
+
+.fundo {
+    background-color: var(--cor-fundo);
+    padding: 20px;
+    border-radius: var(--arredondamento);
+}
+
+.badge {
+    display: inline;
+    padding: 5px;
+    border-radius: var(--arredondamento);
+    margin: 20px 2px;
+    width: 20px;
+}
+
+p {
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.badge#casa {
+    background-color: var(--cor-casa);
+    padding: var(--padding-badge)
+}
+
+.badge#trabalho {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: var(--padding-badge)
+}
+
+.badge#ferias {
+    background-color: var(--cor-ferias);
+    padding: var(--padding-badge)
+}
